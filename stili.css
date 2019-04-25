@@ -1,8 +1,8 @@
 body {
-max-width: 100%;
-background-color: #9a6b4e;
-margin: 0;
-margin-bottom: 0px;
+	max-width: 100%;
+	background-color: #9a6b4e;
+	margin: 0;
+	margin-bottom: 0px;
 }
 
 .naslovnica {
@@ -63,7 +63,7 @@ li.dropdown {
 	overflow: auto;
 	color: black;
 	background-color: #fcfcfc;
-	min-width: 19,6%;
+	min-width: 19.6%;
 }
 
 .dropdown-content a {
