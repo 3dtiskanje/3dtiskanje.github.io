@@ -33,7 +33,6 @@ header .navigation ul {
 header .navigation li {
 	float: left;
 	text-align: center;
-	width: 20%;
 }
 	
 header .navigation li:hover {
@@ -63,7 +62,6 @@ li.dropdown {
 	overflow: auto;
 	color: black;
 	background-color: #fcfcfc;
-	min-width: 19.6%;
 }
 
 .dropdown-content a {
