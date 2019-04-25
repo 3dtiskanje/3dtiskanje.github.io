@@ -26,13 +26,14 @@ header .navigation ul {
 	padding: 0;
 	text-align: center;
 	height: 37px;
-    overflow: hidden;
-    background-color: #9a6b4e;
+    	overflow: hidden;
+    	background-color: #9a6b4e;
 }
 
 header .navigation li {
 	float: left;
-	text-align: center;	
+	text-align: center;
+	max-width: 20%;
 }
 	
 header .navigation li:hover {
@@ -45,37 +46,38 @@ header .navigation li.selected {
 }
 
 li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
+	display: inline-block;
+	color: white;
+	text-align: center;
 	padding: 8px 50px;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 li.dropdown {
-    display: inline-block;
+	display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
+	display: none;
+	position: absolute;
 	overflow: auto;
 	color: black;
-    background-color: #fcfcfc;
+	background-color: #fcfcfc;
+	min-width: 19,6%;
 }
 
 .dropdown-content a {
-    color: black;
+	color: black;
 	padding: 8px 40px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
+	text-decoration: none;
+	display: block;
+	text-align: center;
 }
 
 .dropdown-content a:hover {background-color: #f0f5f5}
 
 .dropdown:hover .dropdown-content {
-    display: block;
+	display: block;
 }
 
 .center {
@@ -133,7 +135,7 @@ besedilo.div {
 	margin-top: 20px;
 }
 
-p	{
+p {
 	width: 100%;
 	line-height: 25px;
 	margin-top: 20px;
@@ -145,16 +147,16 @@ p	{
 	margin-left:15px;
 }
 	
-.lists li{
+.lists li {
 	margin-bottom:10px;
 }
 
 table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 5px;
-  text-align: center;
-  }
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: center;
+}
 
 main {
 	max-width: 98%;
@@ -173,7 +175,7 @@ footer {
 	text-design: bold;
 }
 
-.aside_l{
+.aside_l {
 	float:left;
 	width: 50%;
 	max-width: 50%;
@@ -181,7 +183,7 @@ footer {
 	margin-bottom:10px;
 }
 
-.aside_d{
+.aside_d {
 	float:right;
 	width: 50%;
 	max-width: 50%;
