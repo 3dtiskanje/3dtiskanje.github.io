@@ -1,5 +1,5 @@
 body {
-	font-family: ???;
+	font-family: Arial;
 	max-width: 100%;
 	background-color: #9a6b4e;
 	margin: 0;
@@ -141,9 +141,9 @@ p {
 }
 
 .lists {
-	list-style-type:circle;
-	padding-left:0px;
-	margin-left:15px;
+	list-style-type: circle;
+	padding-left: 0px;
+	margin-left: 15px;
 }
 	
 .lists li {
@@ -170,8 +170,7 @@ footer {
 	clear: both;
 	text-align: center;
 	color: black;
-	font-size: 17px;
-	text-design: bold;
+	font-size: 18px;
 }
 
 .aside_l {
