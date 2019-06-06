@@ -83,13 +83,6 @@ li.dropdown {
 	display: block;
 }
 
-.center {
-	text-align: center; 
-	position: relative;
-	float: center;
-	max-width: 100%;
-}
-
 .desno_poz {
 	text-align: right;
 	float: right;
@@ -179,23 +172,6 @@ footer {
 	text-align: center;
 	color: black;
 	font-size: 18px;
-}
-
-.aside_l {
-	float:left;
-	width: 50%;
-	max-width: 50%;
-	margin-left: auto;
-	margin-bottom:10px;
-}
-
-.aside_d {
-	float:right;
-	width: 50%;
-	max-width: 50%;
-	margin-left: auto;
-	margin-bottom:10px;
-	text-align: left;
 }
 
 /* za slike ki so linearno ena zraven druge; razdeljeno je na 3 dele (*, .column in .row:after) */
