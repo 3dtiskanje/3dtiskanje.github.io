@@ -16,7 +16,7 @@ body {
 	max-width: 100%;
 }
 
-/* za zgornji horizontalni meni (vse kar vsebuje: header, navigation, .dropbtn, dropdown in .dropdown-content */
+/* za zgornji horizontalni meni (vse kar vsebuje: header, navigation, .dropbtn, dropdown in .dropdown-content) */
 
 header .navigation {
 	max-width: 100%;
@@ -174,7 +174,7 @@ footer {
 	font-size: 18px;
 }
 
-/* za slike ki so linearno ena zraven druge; razdeljeno je na 3 dele (*, .column in .row:after) */
+/* za slike ki so linearno ena zraven druge (*, .column in .row:after); v vrstico pridejo 3 slike (zato je width: 33,33%) */
 
 * {
   box-sizing: border-box;
@@ -192,7 +192,7 @@ footer {
   clear: both;
 }
 
-/* pri 'galerija.html' za Slideshow */
+/* za Slideshow na strani: galerija.html */
 
 #zaSlider {
 	float:center;
