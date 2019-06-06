@@ -6,6 +6,8 @@ body {
 	margin-bottom: 0px;
 }
 
+/* za naslovno fotografijo */
+
 .naslovnica {
 	text-align: center; 
 	position: relative;
@@ -13,6 +15,8 @@ body {
 	margin-bottom: 10px;
 	max-width: 100%;
 }
+
+/* za zgornji horizontalni meni (vse kar vsebuje: header, navigation, .dropbtn, dropdown in .dropdown-content */
 
 header .navigation {
 	max-width: 100%;
@@ -140,6 +144,8 @@ p {
 	margin-top: 20px;
 }
 
+/* pri naštevanju: .lists in li */
+
 .lists {
 	padding-left: 0px;
 	margin-left: 15px;
@@ -149,6 +155,8 @@ p {
 	list-style-type: disc;
 	margin-bottom:10px;
 }
+
+/* oblika tabele (table, th, td) na strani: priprava_na_tisk.html */
 
 table, th, td {
 	border: 1px solid black;
@@ -190,6 +198,8 @@ footer {
 	text-align: left;
 }
 
+/* za slike ki so linearno ena zraven druge; razdeljeno je na 3 dele (*, .column in .row:after) */
+
 * {
   box-sizing: border-box;
 }
@@ -206,6 +216,7 @@ footer {
   clear: both;
 }
 
+/* za galerijo */
 
 #zaSlider{
 	float:center;
