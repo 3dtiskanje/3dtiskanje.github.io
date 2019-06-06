@@ -192,9 +192,9 @@ footer {
   clear: both;
 }
 
-/* za galerijo */
+/* pri 'galerija.html' za Slideshow */
 
-#zaSlider{
+.zaSlider{
 	float:center;
 	width: 37%;
 	max-width: 1000px;
